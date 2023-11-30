@@ -1,16 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import CircleWater from "./components/circle_water/CircleWater";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
       <h1 className="text-3xl font-bold underline text-amber-500">
-        Hello world!
+        <CircleWater
+          url={""}
+          size={0}
+          onClick={function (): void {
+            throw new Error("Function not implemented.");
+          }}
+        ></CircleWater>
       </h1>
-
-      </header>
     </div>
   );
 }
