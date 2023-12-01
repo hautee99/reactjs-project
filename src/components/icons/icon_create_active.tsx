@@ -1,5 +1,5 @@
 import React from "react";
-const IconCreate = (): JSX.Element => {
+const IconCreateActive = (): JSX.Element => {
   return (
     <div>
       <svg
@@ -47,4 +47,4 @@ const IconCreate = (): JSX.Element => {
   );
 };
 
-export default IconCreate;
+export default IconCreateActive;
