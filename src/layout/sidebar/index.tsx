@@ -33,9 +33,9 @@ const Sidebar = ({tabActive, onClickTab} : {tabActive: string, onClickTab: (s : 
           icon={<IconHome></IconHome>}
           activeIcon={<IconHomeActive></IconHomeActive>}
           title="Home"
-          isActive={tabActive === ""}
+          isActive={tabActive === "home"}
           onClick={(): void => {
-            onClickTab("");
+            onClickTab("home");
           }}
         ></NavItem>
         <NavItem

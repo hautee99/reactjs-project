@@ -1,7 +1,8 @@
 import React, { useCallback, useEffect, useState } from "react";
 import styles from "./styles.module.css";
 import Sidebar from "../../layout/sidebar";
-import { useNavigate } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
+import Content from "../../layout/content";
 
 const RootPage = ({}): JSX.Element => {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ const RootPage = ({}): JSX.Element => {
   return (
     <div className={`${styles.layout}`}>
       <Sidebar onClickTab={handleTabActive} tabActive={tabActive}></Sidebar>
-      <div>Main / Layout/ Content</div>
+      <Content><Outlet></Outlet></Content>
     </div>
   );
 };

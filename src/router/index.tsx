@@ -4,10 +4,10 @@ import {
     Route,
   } from "react-router-dom";
 import RootPage from "../pages/root";
-import ProfilePage from "../pages/profilepage";
-import MessagePage from "../pages/messagepage";
-import HomePage from "../pages/homepage";
-import DiscoverPage from "../pages/discoverpage";
+import ProfilePage from "../pages/profile";
+import MessagePage from "../pages/message";
+import HomePage from "../pages/home";
+import DiscoverPage from "../pages/discover";
   
 export const router = createBrowserRouter(
     createRoutesFromElements(

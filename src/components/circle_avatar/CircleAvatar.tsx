@@ -1,6 +1,7 @@
 import React from "react";
 
-const CircleWater = ({
+const CircleAvatar
+ = ({
   url,
   size,
   onClick,
@@ -12,14 +13,15 @@ const CircleWater = ({
   return (
     <div>
       <img
-        src=""
+        src={url}
         style={{ width: `${size}px`, height: `${size}px` }}
         alt=""
         onClick={onClick}
-        className="rounded-full border-[1px]"
+        className="rounded-full border-[1px] object-cover"
       ></img>
     </div>
   );
 };
 
-export default CircleWater;
+export default CircleAvatar
+;
