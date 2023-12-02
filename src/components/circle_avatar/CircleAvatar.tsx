@@ -11,7 +11,7 @@ const CircleAvatar
   onClick: () => void;
 }): JSX.Element => {
   return (
-    <div>
+    <div className={`min-w-[${size}px]`}>
       <img
         src={url}
         style={{ width: `${size}px`, height: `${size}px` }}

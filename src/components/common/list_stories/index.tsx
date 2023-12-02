@@ -37,4 +37,32 @@ export const listStories: UserStory[] = [
         avatar: "https://randomuser.me/api/portraits/men/40.jpg",
         haveSeenBefore: true
     },
+    {
+        id: 6,
+        userName: "halland",
+        displayName: "halland",
+        avatar: "https://randomuser.me/api/portraits/men/33.jpg",
+        haveSeenBefore: false
+    },
+    {
+        id: 7,
+        userName: "mbapple",
+        displayName: "mbapple",
+        avatar: "https://randomuser.me/api/portraits/men/40.jpg",
+        haveSeenBefore: true
+    },
+    {
+        id: 8,
+        userName: "halland",
+        displayName: "halland",
+        avatar: "https://randomuser.me/api/portraits/men/33.jpg",
+        haveSeenBefore: false
+    },
+    {
+        id: 9,
+        userName: "mbapple",
+        displayName: "mbapple",
+        avatar: "https://randomuser.me/api/portraits/men/40.jpg",
+        haveSeenBefore: true
+    },
 ]
