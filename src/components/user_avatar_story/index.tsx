@@ -12,15 +12,15 @@ const UserAvatarStory = ({
   haveSeenBefore: boolean;
 }): JSX.Element => {
   return (
-    <div>
+    <div style={{ minWidth: `${size}`}}>
       <div
-        className={
-          !haveSeenBefore
+        className={`
+          (${!haveSeenBefore}
             ? "rounded-full p-[2px] bg-gradient-to-tr from-amber-500 to-fuchsia-600"
-            : "border-[1px] rounded-full mt-[2px]"
-        }
+            : "border-[1px] rounded-full mt-[2px]")]
+        `}
       >
-        <div className="bg-white rounded-full p-[2px]">
+        <div className={`bg-white rounded-full p-[2px]`}>
           <CircleAvatar
             url={url}
             size={size}
